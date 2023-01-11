@@ -1,0 +1,1 @@
+{"name":"defaultMat","data":{"shader":"phong","ambient":[0.2,0.2,0.2],"diffuse":[0.8,0.8,0.8],"specular":[0.2,0.2,0.2],"shininess":39.2903,"emissive":[0,0,0],"opacity":1}}

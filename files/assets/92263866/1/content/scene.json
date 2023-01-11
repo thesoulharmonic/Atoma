@@ -1,0 +1,310 @@
+{
+	"scene": {
+		"version": 1,
+		"assets": {
+			"renders": {
+				"Plane": {
+					"index": 0,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 52,
+					"triangles": 26,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					}
+				},
+				"Plane.002": {
+					"index": 1,
+					"meshes": 2,
+					"skinned": false,
+					"vertices": 28,
+					"triangles": 6,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					}
+				},
+				"Plane.005": {
+					"index": 2,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 6,
+					"triangles": 2,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					}
+				},
+				"Circle.001": {
+					"index": 3,
+					"meshes": 2,
+					"skinned": false,
+					"vertices": 320,
+					"triangles": 94,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					}
+				},
+				"Plane.001": {
+					"index": 4,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 4,
+					"triangles": 2,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					}
+				},
+				"Circle": {
+					"index": 5,
+					"meshes": 3,
+					"skinned": false,
+					"vertices": 1053,
+					"triangles": 222,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					}
+				}
+			},
+			"materials": [
+				"black",
+				"pinkTri",
+				"blue",
+				"yellow",
+				"base",
+				"white",
+				"red"
+			]
+		},
+		"entities": {
+			"0": {
+				"name": "RootNode",
+				"parent": -1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					0.01,
+					0.01,
+					0.01
+				],
+				"scaleCompensation": false,
+				"children": [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6
+				]
+			},
+			"1": {
+				"name": "blackLines",
+				"parent": 0,
+				"position": [
+					-83.2905,
+					101.785,
+					6.72175
+				],
+				"rotation": [
+					2.50448e-06,
+					-0,
+					0
+				],
+				"scale": [
+					0.547274,
+					25.0153,
+					25.0153
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": "Plane",
+						"materials": [
+							"black"
+						]
+					}
+				}
+			},
+			"2": {
+				"name": "pinkTru",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					2.50448e-06,
+					-0,
+					0
+				],
+				"scale": [
+					171.35,
+					171.35,
+					171.35
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": "Plane.002",
+						"materials": [
+							"black",
+							"pinkTri"
+						]
+					}
+				}
+			},
+			"3": {
+				"name": "BlueTri",
+				"parent": 0,
+				"position": [
+					-132.196,
+					-82.7518,
+					2.26906
+				],
+				"rotation": [
+					2.50448e-06,
+					-0,
+					0
+				],
+				"scale": [
+					171.35,
+					171.35,
+					171.35
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": "Plane.005",
+						"materials": [
+							"blue"
+						]
+					}
+				}
+			},
+			"4": {
+				"name": "Circle.001",
+				"parent": 0,
+				"position": [
+					-17.0579,
+					28.7235,
+					-9.60645e-06
+				],
+				"rotation": [
+					2.50448e-06,
+					-0,
+					0
+				],
+				"scale": [
+					105.869,
+					105.869,
+					105.869
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": "Circle.001",
+						"materials": [
+							"black",
+							"yellow"
+						]
+					}
+				}
+			},
+			"5": {
+				"name": "Plane.001",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					-70.8119
+				],
+				"rotation": [
+					2.50448e-06,
+					-0,
+					0
+				],
+				"scale": [
+					171.35,
+					171.35,
+					171.35
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": "Plane.001",
+						"materials": [
+							"base"
+						]
+					}
+				}
+			},
+			"6": {
+				"name": "Circle",
+				"parent": 0,
+				"position": [
+					-0.110371,
+					68.2921,
+					6.83026
+				],
+				"rotation": [
+					2.50448e-06,
+					-0,
+					0
+				],
+				"scale": [
+					100,
+					100,
+					100
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": "Circle",
+						"materials": [
+							"black",
+							"white",
+							"red"
+						]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,440 @@
+{
+	"scene": {
+		"version": 1,
+		"assets": {
+			"renders": {
+				"Curve.072": {
+					"index": 0,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 492,
+					"triangles": 490,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					}
+				},
+				"Curve.069": {
+					"index": 1,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 666,
+					"triangles": 662,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					}
+				},
+				"Curve.047": {
+					"index": 2,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 62,
+					"triangles": 58,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					}
+				},
+				"Curve.045": {
+					"index": 3,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 504,
+					"triangles": 508,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					}
+				},
+				"Curve.044": {
+					"index": 4,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 456,
+					"triangles": 460,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					}
+				},
+				"Curve.042": {
+					"index": 5,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 709,
+					"triangles": 713,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					}
+				},
+				"Curve.041": {
+					"index": 6,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 627,
+					"triangles": 628,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					}
+				},
+				"Curve.039": {
+					"index": 7,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 782,
+					"triangles": 790,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					}
+				},
+				"Curve.038": {
+					"index": 8,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 452,
+					"triangles": 449,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					}
+				}
+			},
+			"materials": [
+				"Material.008",
+				"Material.011",
+				"SVGMat.004",
+				"Material.013",
+				"Material.009",
+				"Material.007",
+				"Material.010",
+				"Material.014",
+				"Material.012"
+			]
+		},
+		"entities": {
+			"0": {
+				"name": "RootNode",
+				"parent": -1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
+			"1": {
+				"name": "Curve.041",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					-90,
+					-0,
+					0
+				],
+				"scale": [
+					49.6773,
+					49.6773,
+					49.6773
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": "Curve.072",
+						"materials": [
+							"Material.008"
+						]
+					}
+				}
+			},
+			"2": {
+				"name": "Curve.038",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					-90,
+					-0,
+					0
+				],
+				"scale": [
+					49.6773,
+					49.6773,
+					49.6773
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": "Curve.069",
+						"materials": [
+							"Material.011"
+						]
+					}
+				}
+			},
+			"3": {
+				"name": "Curve.014",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					-90,
+					-0,
+					0
+				],
+				"scale": [
+					49.6773,
+					49.6773,
+					49.6773
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": "Curve.047",
+						"materials": [
+							"SVGMat.004"
+						]
+					}
+				}
+			},
+			"4": {
+				"name": "Curve.012",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					-90,
+					-0,
+					0
+				],
+				"scale": [
+					49.6773,
+					49.6773,
+					49.6773
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": "Curve.045",
+						"materials": [
+							"Material.013"
+						]
+					}
+				}
+			},
+			"5": {
+				"name": "Curve.011",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					-90,
+					-0,
+					0
+				],
+				"scale": [
+					49.6773,
+					49.6773,
+					49.6773
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": "Curve.044",
+						"materials": [
+							"Material.009"
+						]
+					}
+				}
+			},
+			"6": {
+				"name": "Curve.009",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					-90,
+					-0,
+					0
+				],
+				"scale": [
+					49.6773,
+					49.6773,
+					49.6773
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": "Curve.042",
+						"materials": [
+							"Material.007"
+						]
+					}
+				}
+			},
+			"7": {
+				"name": "Curve.008",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					-90,
+					-0,
+					0
+				],
+				"scale": [
+					49.6773,
+					49.6773,
+					49.6773
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": "Curve.041",
+						"materials": [
+							"Material.010"
+						]
+					}
+				}
+			},
+			"8": {
+				"name": "Curve.006",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					-90,
+					-0,
+					0
+				],
+				"scale": [
+					49.6773,
+					49.6773,
+					49.6773
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": "Curve.039",
+						"materials": [
+							"Material.014"
+						]
+					}
+				}
+			},
+			"9": {
+				"name": "Curve.005",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					-90,
+					-0,
+					0
+				],
+				"scale": [
+					49.6773,
+					49.6773,
+					49.6773
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": "Curve.038",
+						"materials": [
+							"Material.012"
+						]
+					}
+				}
+			}
+		}
+	}
+}

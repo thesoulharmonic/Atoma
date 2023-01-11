@@ -1,0 +1,82 @@
+{
+	"scene": {
+		"version": 1,
+		"assets": {
+			"renders": {
+				"Plane.005": {
+					"index": 0,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 3,
+					"triangles": 1,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1,
+						"TEXCOORD_1": 1,
+						"TEXCOORD_2": 1
+					}
+				}
+			},
+			"materials": [
+				"blue"
+			]
+		},
+		"entities": {
+			"0": {
+				"name": "RootNode",
+				"parent": -1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					0.01,
+					0.01,
+					0.01
+				],
+				"scaleCompensation": false,
+				"children": [
+					1
+				]
+			},
+			"1": {
+				"name": "BlueTri",
+				"parent": 0,
+				"position": [
+					-132.196,
+					-109.827,
+					-5.55947
+				],
+				"rotation": [
+					2.50448e-06,
+					-0,
+					0
+				],
+				"scale": [
+					171.35,
+					171.35,
+					171.35
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": "Plane.005",
+						"materials": [
+							"blue"
+						]
+					}
+				}
+			}
+		}
+	}
+}

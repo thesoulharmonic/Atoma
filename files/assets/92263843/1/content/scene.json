@@ -1,0 +1,524 @@
+{
+	"scene": {
+		"version": 1,
+		"assets": {
+			"renders": {
+				"Plane.003": {
+					"index": 0,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 4,
+					"triangles": 2,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					}
+				},
+				"Plane.007": {
+					"index": 1,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 7,
+					"triangles": 3,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					}
+				},
+				"Circle.008": {
+					"index": 2,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 8192,
+					"triangles": 4096,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					}
+				},
+				"Circle.009": {
+					"index": 3,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 2048,
+					"triangles": 1024,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					}
+				},
+				"Circle.010": {
+					"index": 4,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 2048,
+					"triangles": 1024,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					}
+				},
+				"Circle.011": {
+					"index": 5,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 2048,
+					"triangles": 1024,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					}
+				},
+				"Circle.012": {
+					"index": 6,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 2048,
+					"triangles": 1024,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					}
+				},
+				"Plane.008": {
+					"index": 7,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 52,
+					"triangles": 26,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					}
+				},
+				"Plane.009": {
+					"index": 8,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 44,
+					"triangles": 22,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					}
+				},
+				"Plane.010": {
+					"index": 9,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 36,
+					"triangles": 18,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					}
+				},
+				"Plane.011": {
+					"index": 10,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 4,
+					"triangles": 2,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					}
+				}
+			},
+			"materials": [
+				"tarq",
+				"yellow",
+				"black",
+				"grey.002",
+				"red"
+			]
+		},
+		"entities": {
+			"0": {
+				"name": "RootNode",
+				"parent": -1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					0.01,
+					0.01,
+					0.01
+				],
+				"scaleCompensation": false,
+				"children": [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10,
+					11
+				]
+			},
+			"1": {
+				"name": "tarq",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					-49.7154
+				],
+				"rotation": [
+					2.50448e-06,
+					-0,
+					0
+				],
+				"scale": [
+					171.35,
+					171.35,
+					171.35
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": "Plane.003",
+						"materials": [
+							"tarq"
+						]
+					}
+				}
+			},
+			"2": {
+				"name": "yellow",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					-35.3617
+				],
+				"rotation": [
+					2.50448e-06,
+					-0,
+					0
+				],
+				"scale": [
+					171.35,
+					171.35,
+					171.35
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": "Plane.007",
+						"materials": [
+							"yellow"
+						]
+					}
+				}
+			},
+			"3": {
+				"name": "blCircle",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					-61.6176
+				],
+				"rotation": [
+					-90,
+					0,
+					0
+				],
+				"scale": [
+					100,
+					100,
+					100
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": "Circle.008",
+						"materials": [
+							"black"
+						]
+					}
+				}
+			},
+			"4": {
+				"name": "blCircle.001",
+				"parent": 0,
+				"position": [
+					-8.60045,
+					-13.5411,
+					48.5218
+				],
+				"rotation": [
+					-90,
+					0,
+					0
+				],
+				"scale": [
+					32.399,
+					32.399,
+					32.399
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": "Circle.009",
+						"materials": [
+							"grey.002"
+						]
+					}
+				}
+			},
+			"5": {
+				"name": "blCircle.002",
+				"parent": 0,
+				"position": [
+					59.8677,
+					11.7722,
+					51.4056
+				],
+				"rotation": [
+					-90,
+					0,
+					0
+				],
+				"scale": [
+					26.4091,
+					26.4091,
+					26.4091
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": "Circle.010",
+						"materials": [
+							"tarq"
+						]
+					}
+				}
+			},
+			"6": {
+				"name": "blCircle.003",
+				"parent": 0,
+				"position": [
+					5.73363,
+					51.4197,
+					-8.17028
+				],
+				"rotation": [
+					-90,
+					0,
+					0
+				],
+				"scale": [
+					18.5417,
+					18.5417,
+					18.5417
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": "Circle.011",
+						"materials": [
+							"red"
+						]
+					}
+				}
+			},
+			"7": {
+				"name": "blCircle.004",
+				"parent": 0,
+				"position": [
+					46.601,
+					-41.7518,
+					-52.1622
+				],
+				"rotation": [
+					-90,
+					0,
+					0
+				],
+				"scale": [
+					18.5417,
+					18.5417,
+					18.5417
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": "Circle.012",
+						"materials": [
+							"yellow"
+						]
+					}
+				}
+			},
+			"8": {
+				"name": "blackLines.001",
+				"parent": 0,
+				"position": [
+					81.8108,
+					26.6466,
+					-3.73247
+				],
+				"rotation": [
+					2.50448e-06,
+					-0,
+					0
+				],
+				"scale": [
+					0.547274,
+					25.0153,
+					25.0153
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": "Plane.008",
+						"materials": [
+							"black"
+						]
+					}
+				}
+			},
+			"9": {
+				"name": "blackLines.002",
+				"parent": 0,
+				"position": [
+					-93.908,
+					21.6582,
+					3.54478
+				],
+				"rotation": [
+					-3.25369e-06,
+					-7.40874e-06,
+					74.2382
+				],
+				"scale": [
+					0.547274,
+					25.0153,
+					25.0153
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": "Plane.009",
+						"materials": [
+							"black"
+						]
+					}
+				}
+			},
+			"10": {
+				"name": "blackLines.003",
+				"parent": 0,
+				"position": [
+					-0.550437,
+					73.8858,
+					13.2869
+				],
+				"rotation": [
+					-1.10449e-06,
+					4.6929e-06,
+					-37.5613
+				],
+				"scale": [
+					0.547274,
+					25.0153,
+					25.0153
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": "Plane.010",
+						"materials": [
+							"black"
+						]
+					}
+				}
+			},
+			"11": {
+				"name": "blackLines.004",
+				"parent": 0,
+				"position": [
+					-0.550437,
+					73.8858,
+					3.54478
+				],
+				"rotation": [
+					-1.10449e-06,
+					4.6929e-06,
+					-37.5613
+				],
+				"scale": [
+					0.547274,
+					25.0153,
+					25.0153
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": "Plane.011",
+						"materials": [
+							"black"
+						]
+					}
+				}
+			}
+		}
+	}
+}

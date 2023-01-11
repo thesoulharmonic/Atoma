@@ -1,0 +1,1 @@
+{"name":"base","data":{"shader":"phong","ambient":[0,0,0],"diffuse":[1,0.82071,0.606019],"specular":[0.25,0.205178,0.151505],"shininess":42.2169,"glossMap":4,"glossMapOffset":[0,0],"glossMapTiling":[1,1],"emissive":[0,0,0],"opacity":1}}

@@ -1,0 +1,82 @@
+{
+	"scene": {
+		"version": 1,
+		"assets": {
+			"renders": {
+				"Plane.004": {
+					"index": 0,
+					"meshes": 2,
+					"skinned": false,
+					"vertices": 7978,
+					"triangles": 2099,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					}
+				}
+			},
+			"materials": [
+				"Material.019",
+				"Material.020"
+			]
+		},
+		"entities": {
+			"0": {
+				"name": "RootNode",
+				"parent": -1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					0.01,
+					0.01,
+					0.01
+				],
+				"scaleCompensation": false,
+				"children": [
+					1
+				]
+			},
+			"1": {
+				"name": "Star",
+				"parent": 0,
+				"position": [
+					0.454715,
+					1.00575,
+					-2.29792
+				],
+				"rotation": [
+					180,
+					-0,
+					0
+				],
+				"scale": [
+					100,
+					100,
+					100
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": "Plane.004",
+						"materials": [
+							"Material.019",
+							"Material.020"
+						]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,82 @@
+{
+	"scene": {
+		"version": 1,
+		"assets": {
+			"renders": {
+				"Curve.032": {
+					"index": 0,
+					"meshes": 2,
+					"skinned": false,
+					"vertices": 10510,
+					"triangles": 2813,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					}
+				}
+			},
+			"materials": [
+				"Material.005",
+				"Material.006"
+			]
+		},
+		"entities": {
+			"0": {
+				"name": "RootNode",
+				"parent": -1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					0.01,
+					0.01,
+					0.01
+				],
+				"scaleCompensation": false,
+				"children": [
+					1
+				]
+			},
+			"1": {
+				"name": "Curve.030",
+				"parent": 0,
+				"position": [
+					-6.53082,
+					-3.52954,
+					1.57552
+				],
+				"rotation": [
+					0.0306769,
+					-0,
+					0
+				],
+				"scale": [
+					4508.06,
+					4508.06,
+					100
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": "Curve.032",
+						"materials": [
+							"Material.005",
+							"Material.006"
+						]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,170 @@
+{
+	"scene": {
+		"version": 1,
+		"assets": {
+			"renders": {
+				"Curve.002": {
+					"index": 0,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 4,
+					"triangles": 2,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					}
+				},
+				"Curve.001": {
+					"index": 1,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 120,
+					"triangles": 118,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					}
+				},
+				"Curve": {
+					"index": 2,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 66,
+					"triangles": 66,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					}
+				}
+			},
+			"materials": [
+				"Material.001",
+				"Material.003",
+				"Material.002"
+			]
+		},
+		"entities": {
+			"0": {
+				"name": "RootNode",
+				"parent": -1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					1,
+					2,
+					3
+				]
+			},
+			"1": {
+				"name": "Curve.002",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					-90,
+					-0,
+					0
+				],
+				"scale": [
+					314.49,
+					314.49,
+					100.422
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": "Curve.002",
+						"materials": [
+							"Material.001"
+						]
+					}
+				}
+			},
+			"2": {
+				"name": "Curve.001",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					-90,
+					-0,
+					0
+				],
+				"scale": [
+					314.49,
+					314.49,
+					100.422
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": "Curve.001",
+						"materials": [
+							"Material.003"
+						]
+					}
+				}
+			},
+			"3": {
+				"name": "Curve",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					-90,
+					-0,
+					0
+				],
+				"scale": [
+					314.49,
+					314.49,
+					100.422
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": "Curve",
+						"materials": [
+							"Material.002"
+						]
+					}
+				}
+			}
+		}
+	}
+}
