@@ -1,2 +1,2 @@
-# Atoma
-Atoma Spaces - Interactive music and art made with PlayCanvas
+# AtomaSpaces-Meditation-Room
+ Atoma Spaces - Interactive music and art funded by Arts Council England built with PlayCanvas
